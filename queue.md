@@ -1,11 +1,11 @@
-## Queue
+# Queue
 
 ## 큐(Queue)란?
 ![Queue](./img/queue.png)
-- 먼저 집어 넣은 데이터가 먼저 나오는 FIFO(First In First Out) 형식의 자료 구조
+- 먼저 집어 넣은 데이터가 먼저 나오는 **FIFO(First In First Out)** 형식의 자료 구조
 
 ## 큐 사용법
-- Java에는 큐 라이브러리가 있다. (import java.util.Queue)
+- **Java에는 큐 라이브러리가 있다.** (import java.util.Queue)
 - 큐에 데이터를 추가, 삭제, 검색할 때 사용되는 유사한 메서드들이 있다. 이들은 문제 상황에서 예외를 발생시키는지, 아니면 null이나 false를 반환하는지에 따라 분류된다. 
 
 |메소드|설명| 
@@ -17,8 +17,8 @@
 |element()|해당 큐의 맨 앞에 있는 요소를 반환한다.|
 |peek()|해당 큐의 맨 앞에 있는 요소를 반환한다. 큐가 비어있으면 null을 반환한다.|
 
-### 큐 구현
-#### 배열로 큐 구현
+## 큐 구현
+### 배열로 큐 구현
 ```java
 public class ArrQueue {
     int front;
